@@ -1,8 +1,9 @@
 # xorg.conf
 
 ```
-git clone git@github.com:suzuki-shunsuke/xorg.conf.git ~/.xorg
-ln -s ~/.xorg/.Xdefaults ~/.Xdefaults
+git clone https://github.com/suzuki-shunsuke/xorg.conf ~/.xorg
+ln -s ~/.xorg/.Xresources ~/.Xresources
+ln -s ~/.xorg/.xprofile ~/.xprofile
 ```
 
 ## ~/.Xdefaults
