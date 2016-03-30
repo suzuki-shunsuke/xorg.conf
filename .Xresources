@@ -3,8 +3,8 @@ urxvt.saveLines: 512
 urxvt.scrollBar: false
 urxvt.termName: rxvt
 
-urxvt.iconFile: /usr/share/icons/Humanity/apps/128/gnome-terminal.svg
-urxvt.font: xft:Monospace:Bold:size=13:antialias=true
+! urxvt.iconFile: /usr/share/icons/Humanity/apps/128/gnome-terminal.svg
+urxvt.font: xft:TakaoGothic:Bold:size=13:antialias=true
 
 ! color
 urxvt.depth: 32
@@ -21,14 +21,3 @@ urxvt.fading: 30
 
 ! input with IM at cursor position
 urxvt.preeditType: OverTheSpot
-
-! clipboard
-! $ urxvt --perl-lib $HOME/.urxvt/urxvt-perls
-! urxvt.perl-lib: /home/sasaplus1/.urxvt/urxvt-perls
-! urxvt.perl-ext-common: clipboard
-! URxvt.perl-ext-common: clipboard,url-select,keyboard-select
-! URxvt.keysym.M-Escape: perl:keyboard-select:activate
-! URxvt.keysym.M-u: perl:url-select:select_next
-! URxvt.keysym.M-c:   perl:clipboard:copy
-! URxvt.keysym.M-v:   perl:clipboard:paste
-! URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
